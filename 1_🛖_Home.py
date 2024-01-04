@@ -20,7 +20,7 @@ def write_to_training_file(file_path,prompt,sql):
           return "problem in openeing file"
 
 #setup env variable
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = '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'
 #project root directory
 current_dir = Path(__file__)
 root_dir = [p for p in current_dir.parents if p.parts[-1]=='ai_sql_assistant'][0]
